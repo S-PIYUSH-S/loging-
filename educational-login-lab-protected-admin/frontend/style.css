@@ -62,7 +62,7 @@ a {
   height: 420px;
   border: 2px solid rgba(255, 255, 255, 0.45);
   border-radius: 28px;
-  background: rgba(255, 255, 255, 0.12);
+  background:#1F1F22;
   box-shadow: 0 28px 80px rgba(0, 0, 0, 0.22);
   backdrop-filter: blur(8px);
   animation: float 6s ease-in-out infinite;
