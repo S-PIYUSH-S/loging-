@@ -52,7 +52,6 @@ a {
   position: absolute;
   inset: auto 10% 10% 10%;
   color: rgba(255, 255, 255, 0.92);
-  content: "Local Express + SQLite practice workspace";
   font-size: clamp(2rem, 5vw, 4.5rem);
   font-weight: 800;
   line-height: 1.02;
