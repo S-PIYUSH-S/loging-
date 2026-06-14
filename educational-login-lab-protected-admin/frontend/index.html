@@ -12,45 +12,36 @@
     <section class="login-image-section" aria-hidden="true">
     </section>
 
-    <section class="login-form-section" aria-label="Login form">
-      <div class="card">
-        <h1 class="logo">Log into Instagram</h1>
+    <section class="login-form-section mobile-login-section" aria-label="Login form">
+  <div class="mobile-login-panel">
+    <h1 class="mobile-login-title">Log in to instagram</h1>
 
-        <form id="loginForm" novalidate>
-          <div class="message" id="loginMessage" role="status" aria-live="polite"></div>
+    <form id="loginForm" class="mobile-login-form" novalidate>
+      <div class="message" id="loginMessage" role="status" aria-live="polite"></div>
 
-          <div class="input-group">
-            <label class="sr-only" for="username">Username</label>
-            <input
-              type="text"
-              id="username"
-              name="username"
-              class="form-input"
-              placeholder="Username"
-              autocomplete="username"
-              required
-            >
-          </div>
+      <label class="mobile-field">
+        <input type="text" id="username" name="username" placeholder=" " autocomplete="username" required>
+        <span>Mobile number, username or email</span>
+      </label>
 
-          <div class="input-group">
-            <label class="sr-only" for="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              class="form-input"
-              placeholder="Password"
-              autocomplete="current-password"
-              required
-            >
-          </div>
+      <label class="mobile-field">
+        <input type="password" id="password" name="password" placeholder=" " autocomplete="current-password" required>
+        <span>Password</span>
+      </label>
 
-          <button type="submit" class="btn-primary" id="submitBtn">log in</button>
-        </form>
-      </div>
+      <button type="submit" class="mobile-login-btn" id="submitBtn">Log in</button>
+    </form>
 
-      <p class="local-note">Log into Instagram.</p>
-    </section>
+    <a href="#" class="mobile-forgot">Forgot password?</a>
+
+    <div class="mobile-actions">
+      <button type="button" class="mobile-secondary-btn">ⓕlog in with facebook</button>
+      <button type="button" class="mobile-create-btn">Create new account</button>
+    </div>
+
+    <p class="mobile-brand">Login into instagram </p>
+  </div>
+</section>
   </main>
   </main>
 <footer class="site-footer">
